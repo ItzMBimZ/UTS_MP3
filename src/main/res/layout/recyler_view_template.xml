@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="12dp">
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="8dp"
+        android:src="@mipmap/ic_launcher"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Title"/>
+        
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kalori"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:id="@+id/kalori"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text="kalori"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:src="@drawable/waktu"/>
+        <TextView
+            android:id="@+id/waktu"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text="menit"/>
+    </LinearLayout>
+        <TextView
+            android:id="@+id/kelas"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text="Beginner"/>
+
+    </LinearLayout>
+
+</LinearLayout>

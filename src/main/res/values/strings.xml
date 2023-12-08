@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_meal">Meal Plans</string>
+    <string name="title_Exercise">Exercise</string>
+    <string name="title_profile">Profile</string>
+</resources>
